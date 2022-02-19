@@ -26,3 +26,36 @@
   margin: 0 5em 0 auto;
   font-size: 0.85rem;
 }
+
+.meme-ctn {
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.meme-input {
+  width: 250px;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  border: solid rgba(0, 0, 0, 0.199) 0.1em;
+  border-radius: 0.5em;
+}
+
+#render-btn {
+  width: 515px;
+  padding: 0.5em;
+  margin: 1em 0 0 0;
+  border: solid rgba(0, 0, 0, 0.199) 0.1em;
+  border-radius: 0.5em;
+  background-color: #1a1b21;
+  color: #ffff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#render-btn:hover {
+  background-color: #1a1b21e8;
+}
