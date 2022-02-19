@@ -3,3 +3,26 @@
   margin: 0;
   padding: 0;
 }
+
+.header {
+  display: flex;
+  height: 70px;
+  background-color: #1a1b21;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  margin: 0 1em 0 2em;
+}
+
+.logo_title {
+  color: #ffff;
+  font-size: 1.8rem;
+}
+
+.header_text {
+  color: #ffff;
+  margin: 0 5em 0 auto;
+  font-size: 0.85rem;
+}
