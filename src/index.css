@@ -59,3 +59,34 @@
 #render-btn:hover {
   background-color: #1a1b21e8;
 }
+
+.meme-ctn {
+  position: relative;
+}
+
+.meme-img {
+  max-width: 515px;
+  margin: 0.5em 0 0 0;
+  border-radius: 0.3em;
+}
+
+.meme-text {
+  position: absolute;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  padding: 1em 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
