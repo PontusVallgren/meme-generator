@@ -2,7 +2,7 @@
 
 In this mini-project i'm creating a meme-generator with React and some basic css styling.
 
-##Practise / Learnings
+## Practise / Learnings
 
 - Event listeners in React
 - How State works
